@@ -1,0 +1,3 @@
+# 学習（train.py / make_wise_ft.py / export_weights.py）
+torch>=2.1
+numpy>=1.24

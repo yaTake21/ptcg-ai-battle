@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 24 1279.97 417.6" width="1279.97" height="417.6" role="img">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#404040"/></marker><marker id="ad" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#9AA0A6"/></marker></defs>
+<rect x="0" y="24" width="1279.97" height="417.6" fill="#FFFFFF"/>
+<text x="38.4" y="70.465" font-family="Arial, Helvetica, sans-serif" font-size="26.6" font-weight="700" fill="#333333" text-anchor="start">Deck selection and update loop</text>
+<line x1="187.2" y1="196.8" x2="220.8" y2="196.8" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="307.2" y1="237.12" x2="307.2" y2="294.72" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="393.6" y1="196.8" x2="427.2" y2="196.8" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="600" y1="196.8" x2="633.6" y2="196.8" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="811.2" y1="196.8" x2="844.8" y2="196.8" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="1008" y1="196.8" x2="1041.6" y2="196.8" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="1137.6" y1="237.12" x2="1137.6" y2="294.72" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="926.4" y1="237.12" x2="926.4" y2="331.2" stroke="#404040" stroke-width="1.6" marker-end="url(#a)"/>
+<polyline points="1041.6,331.2 513.6,331.2 513.6,237.12" fill="none" stroke="#9AA0A6" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ad)"/>
+<rect x="38.4" y="156.48" width="148.8" height="80.64" rx="0" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="112.8" y="192.77675000000002" font-family="Arial, Helvetica, sans-serif" font-size="14.63" font-weight="400" fill="#333333" text-anchor="middle">Leaderboard</text>
+<text x="112.8" y="211.06425000000002" font-family="Arial, Helvetica, sans-serif" font-size="14.63" font-weight="400" fill="#333333" text-anchor="middle">decks</text>
+<rect x="220.8" y="156.48" width="172.8" height="80.64" rx="8" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="307.2" y="193.1425" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">Classify archetypes,</text>
+<text x="307.2" y="209.7675" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">score-band share</text>
+<rect x="220.8" y="294.72" width="172.8" height="67.2" rx="0" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="307.2" y="332.975" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">Design opponent pool</text>
+<rect x="427.2" y="156.48" width="172.8" height="80.64" rx="8" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="513.6" y="193.1425" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">Collect match history</text>
+<text x="513.6" y="209.7675" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">of top submissions</text>
+<rect x="633.6" y="156.48" width="177.6" height="80.64" rx="8" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="722.4" y="193.1425" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">Identify the 60 cards,</text>
+<text x="722.4" y="209.7675" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">group into variants</text>
+<rect x="844.8" y="156.48" width="163.2" height="80.64" rx="8" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="926.4" y="193.1425" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">Top players</text>
+<text x="926.4" y="209.7675" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">switched variants?</text>
+<rect x="1041.6" y="156.48" width="192" height="80.64" rx="8" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="1137.6" y="193.32537500000004" font-family="Arial, Helvetica, sans-serif" font-size="12.635000000000002" font-weight="400" fill="#333333" text-anchor="middle">Collect new-variant replays,</text>
+<text x="1137.6" y="209.11912500000005" font-family="Arial, Helvetica, sans-serif" font-size="12.635000000000002" font-weight="400" fill="#333333" text-anchor="middle">retrain, update the deck</text>
+<ellipse cx="1137.6" cy="330.72" rx="96" ry="36" fill="#FFFFFF" stroke="#808080" stroke-width="1.2"/>
+<text x="1137.6" y="335.375" font-family="Arial, Helvetica, sans-serif" font-size="13.3" font-weight="400" fill="#333333" text-anchor="middle">Verify by direct play</text>
+<text x="1030.08" y="172.58925" font-family="Arial, Helvetica, sans-serif" font-size="11.97" font-weight="400" fill="#767676" text-anchor="middle">Yes</text>
+<text x="931.2" y="257.06925" font-family="Arial, Helvetica, sans-serif" font-size="11.97" font-weight="400" fill="#767676" text-anchor="start">No: keep</text>
+</svg>

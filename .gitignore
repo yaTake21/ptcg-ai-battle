@@ -1,0 +1,27 @@
+# ---- コンペ規約: 競技データ・派生物・提出物はコミットしない ----
+# エンジン（公式配布物）・リプレイ・静的テーブル・特徴量・重み・デッキ・提出物
+engine/
+**/data/
+**/runs/
+opponents/
+submissions/
+*.npz
+*.pt
+*.tar.gz
+*.json.gz
+*.jsonl
+
+# ---- 例外: README 用の自作図 ----
+!docs/figures/*.pptx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- OS / エディタ ----
+.DS_Store
+.vscode/
+.idea/
